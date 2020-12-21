@@ -33,8 +33,19 @@ En este archivo se encuentra la base de datos, que basicamente es un gestor de c
 
 
 El dominio del sitio
+
+
+
+
 La url
+
+
+
 Tu nombre de usuario
+
+
+
+
 La contraseña que quieres encriptar
 
 
