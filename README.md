@@ -65,3 +65,11 @@ En este archivo se encuentra la base de datos, que basicamente es un gestor de c
 
 
 
+#ARCHIVO Manager.db
+
+
+Es la base de datos en la que se guardara los datos del gestor de contraseñas
+
+
+#
+
