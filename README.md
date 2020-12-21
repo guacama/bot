@@ -24,3 +24,18 @@ En este archivo se encuentran todos los comandos a los que responde el bot
 
 
 En este archivo se encuentran todas las funcionalidades del bot
+
+
+#ARCHIVO BBD.py
+
+
+En este archivo se encuentra la base de datos, que basicamente es un gestor de contraseñas el cual le puedes pasar:
+
+
+El dominio del sitio
+La url
+Tu nombre de usuario
+La contraseña que quieres encriptar
+
+
+
