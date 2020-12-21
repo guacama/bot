@@ -1,5 +1,5 @@
 # bot
-Esto es un simple bot con reconicimiento de voz creado en python
+Esto es un simple bot con reconocimiento de voz creado en python
 
 #INSTALACION
 
