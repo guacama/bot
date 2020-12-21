@@ -1,0 +1,10 @@
+secure-smtplib
+pipenv
+SpeechRecognition
+selenium
+pafy
+wikipedia
+googlesearch-python
+cryptography
+hashlib
+random2
