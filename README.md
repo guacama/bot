@@ -20,3 +20,7 @@ En este archivo se encuentran todos los comandos a los que responde el bot
 
 
 
+#ARCHIVO asistente.py
+
+
+En este archivo se encuentran todas las funcionalidades del bot
