@@ -14,9 +14,18 @@ pip install pipenv
 pipenv install pyttsx3
 
 
+
+
+Tambien es necesario instalar Google Chrome, con su controlador
+
+
 #ARCHIVO BOT
 
 En este archivo se encuentran todos los comandos a los que responde el bot
+
+
+
+
 
 
 
@@ -26,27 +35,33 @@ En este archivo se encuentran todos los comandos a los que responde el bot
 En este archivo se encuentran todas las funcionalidades del bot
 
 
+
+
+
+
+
+
 #ARCHIVO BBD.py
 
 
 En este archivo se encuentra la base de datos, que basicamente es un gestor de contraseñas el cual le puedes pasar:
 
 
-El dominio del sitio
+-El dominio del sitio
 
 
 
 
-La url
+-La url
 
 
 
-Tu nombre de usuario
+-Tu nombre de usuario
 
 
 
 
-La contraseña que quieres encriptar
+-La contraseña que quieres encriptar
 
 
 
