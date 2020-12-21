@@ -71,5 +71,13 @@ En este archivo se encuentra la base de datos, que basicamente es un gestor de c
 Es la base de datos en la que se guardara los datos del gestor de contraseñas
 
 
-#
+#ARCHIVO main.py
+
+
+Es el archivo que debes de ejecutar para que funcione el programa
+
+
+
+
+
 
