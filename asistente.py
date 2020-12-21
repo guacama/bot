@@ -272,7 +272,7 @@ class IAFunciones(Asistente):
 
 
 class IAWeb():
-    
+   
     def __init__(self):
         self.WEB_DRIVER = 'C:/Program Files (x86)/chromedriver.exe'
         self.driver = webdriver.Chrome(self.WEB_DRIVER)
@@ -286,15 +286,15 @@ class IAWeb():
         if materia == None:
             self.driver.get('https://www.blinklearning.com/login')
             self.usuario = self.driver.find_element_by_id('email')
-            self.usuario.send_keys('popeyeseal@gmail.com')
+            self.usuario.send_keys('usuario')
             self.passw = self.driver.find_element_by_id('contrasena')
-            self.passw.send_keys('jose1685', Keys.ENTER)
+            self.passw.send_keys('contraseña', Keys.ENTER)
         else:
             self.driver.get('https://www.blinklearning.com/login')
             self.usuario = self.driver.find_element_by_id('email')
-            self.usuario.send_keys('popeyeseal@gmail.com')
+            self.usuario.send_keys('usuario')
             self.passw = self.driver.find_element_by_id('contrasena')
-            self.passw.send_keys('jose1685', Keys.ENTER)
+            self.passw.send_keys('contraseña', Keys.ENTER)
 
             if materia == 'naturales':
                 naturales = self.driver.find_element_by_class_name('mask')
@@ -315,18 +315,18 @@ class IAWeb():
     def Ingles(self):
         self.driver.get('http://udpaccess.com/')
         self.usuario = self.driver.find_element_by_name('identifier')
-        self.usuario.send_keys('popeyeseal@gmail.com')
+        self.usuario.send_keys('usuario')
         self.passw = self.driver.find_element_by_name('password')
-        self.passw.send_keys('Jose1685', Keys.ENTER)
+        self.passw.send_keys('contraseña', Keys.ENTER)
         self.driver.find_element_by_xpath('/html/body/div[1]/div/main/div[2]/div/ul/li/div/div/div/div[4]/a').click()
         self.driver.find_element_by_xpath('/html/body/div[1]/div/main/div[3]/div/ul/li/div/div[1]/div/div[1]').click()
 
     def Matematica(self):
         self.driver.get('https://es.khanacademy.org/login')
         self.usuario = self.driver.find_element_by_id('uid-identity-text-field-0-correo-electrnico-o-nombre-de-usuario')
-        self.usuario.send_keys('josemiguel1751')
+        self.usuario.send_keys('usuario')
         self.passw = self.driver.find_element_by_id('uid-identity-text-field-1-contrasea')
-        self.passw.send_keys('14789632', Keys.ENTER)
+        self.passw.send_keys('contraseña', Keys.ENTER)
 
 
 
